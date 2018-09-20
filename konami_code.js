@@ -16,13 +16,10 @@ let index = 0;
 function init(){
 document.body.addEventListener('keydown', (e) => {
   const key = parseInt(e.which);
-  // let index=0;
-  console.log('e.which:', e.which)
   
-  console.log('index= ', index)
   if (key === code[index]) {
     index++;
-// console.log(index)
+
     if (index === code.length) {
       alert("Hurray!");
  
