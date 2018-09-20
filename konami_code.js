@@ -35,10 +35,10 @@ console.log(index)
 }
 
 init()
-document.addEventListener('keydown', onKeyDownHandler(event));
+document.addEventListener('keydown', onKeyDownHandler);
 
 
-document.addEventListener('keydown', (event) => {
-  const keyName = event.key;
-  alert('keydown event\n\n' + 'key: ' + keyName);
-});
+// document.addEventListener('keydown', (event) => {
+//   const keyName = event.key;
+//   alert('keydown event\n\n' + 'key: ' + keyName);
+// });
