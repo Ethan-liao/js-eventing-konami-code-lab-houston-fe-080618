@@ -19,7 +19,7 @@ document.body.addEventListener('keydown', (e) => {
   let index=0;
   console.log('e.which:', e.which)
   
-  console.log(index)
+  console.log('index= ', index)
   if (key === code[index]) {
     index++;
 console.log(index)
