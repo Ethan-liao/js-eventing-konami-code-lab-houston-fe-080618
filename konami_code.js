@@ -1,11 +1,19 @@
 //up ,up ,down ,down ,left ,right ,left,right,b,a
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
-let userCode =[];
+let userCode = [38,42,22];
 
 function init() {
   
   function keySequence(e){
-    userCode[e.which]
+    userCode.push(e.which)
+    
+    for(let i=0; i<= userCode.length;i++){
+      if(userCode[i] === code[i]){
+        
+      }
+    }
+    
+    
     
     loop through code
       if code matches userCode
@@ -13,7 +21,7 @@ function init() {
       else 
         userCode = []
         
-    userCode.push(e.which);
+    
     
     
     alert('the key pressed is ' + e.which)    
