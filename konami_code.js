@@ -3,8 +3,8 @@
 
 function init() {
   
-  document.addEventListener('keydown',function(){
-    alert('key pressed!')
+  document.addEventListener('keydown',function(e){
+    alert('the key pressed is ', e.which)
   })
 
 }
