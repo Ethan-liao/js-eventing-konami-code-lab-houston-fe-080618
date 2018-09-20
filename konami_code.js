@@ -89,7 +89,7 @@ document.addEventListener('keydown', onKeyDownHandler)
 // })
 // }
 
-init()
+// init()
 // document.addEventListener('keydown', onKeyDownHandler(event));
 
 
