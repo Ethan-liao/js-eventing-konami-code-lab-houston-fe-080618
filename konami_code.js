@@ -1,6 +1,6 @@
 //up ,up ,down ,down ,left ,right ,left,right,b,a
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
-let userCode = [38]
+let userCode = [42]
 
 function init() {
   
@@ -11,13 +11,13 @@ function init() {
       if(userCode[i] === code[i]){
       } else {
         userCode = [e.which];
-        
+
       }
     }
     
+      console.log(userCode)
       
-      
-    alert('the key pressed is ' + e.which)    
+    // alert('the key pressed is ' + e.which)    
   }
   
   document.addEventListener('keydown', keySequence)
