@@ -34,7 +34,7 @@ function onKeyDownHandler(e){
   const key = parseInt(e.which);
   if (key === code[index]){
     index++;
-    if(index === alphabet.length){
+    if(index === code.length){
       alert('congratulations code correct')
     }
     
