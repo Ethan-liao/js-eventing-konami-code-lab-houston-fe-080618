@@ -1,6 +1,6 @@
 //up ,up ,down ,down ,left ,right ,left,right,b,a
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
-let userCode = [38,42,22];
+let userCode = [38]
 
 function init() {
   
@@ -9,21 +9,14 @@ function init() {
     
     for(let i=0; i<= userCode.length;i++){
       if(userCode[i] === code[i]){
+      } else {
+        userCode = [e.which];
         
       }
     }
     
-    
-    
-    loop through code
-      if code matches userCode
-        then alert('yes its correct!')
-      else 
-        userCode = []
-        
-    
-    
-    
+      
+      
     alert('the key pressed is ' + e.which)    
   }
   
