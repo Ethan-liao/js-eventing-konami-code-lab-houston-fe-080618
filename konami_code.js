@@ -32,9 +32,17 @@ let index = 0;
 
 function onKeyDownHandler(e){
   const key = parseInt(e.which);
-  if (key === code[index]{
-    index++
-  };
+  if (key === code[index]){
+    index++;
+    if(index === alphabet.length){
+      alert('congratulations code correct')
+    }
+    
+  } else {
+    index=0;
+  }
+  
+
 }
 
 document.addEventListener('keydown', onKeyDownHandler)
