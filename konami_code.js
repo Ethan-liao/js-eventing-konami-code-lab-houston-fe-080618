@@ -2,31 +2,33 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 let userCode = [42]
 
-function init() {
+// function init() {
   
-  function keySequence(e){
-    userCode.push(e.which)
+//   function keySequence(e){
+//     userCode.push(e.which)
     
-    for(let i=0; i<= userCode.length;i++){
-      if(userCode[i] === code[i]){
-      } else {
-        userCode = [e.which];
+//     for(let i=0; i<= userCode.length;i++){
+//       if(userCode[i] === code[i]){
+//       } else {
+//         userCode = [e.which];
       
-      }
-    }
+//       }
+//     }
     
-      console.log(userCode)
+//       console.log(userCode)
       
-    // alert('the key pressed is ' + e.which)    
-  }
+//     // alert('the key pressed is ' + e.which)    
+//   }
   
-  document.addEventListener('keydown', keySequence)
+//   document.addEventListener('keydown', keySequence)
     
 
-}
+// }
 
 
-
+const alphabet = [65, 66, 67];
+ 
+ 
 
 
 
