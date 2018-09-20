@@ -28,7 +28,7 @@ let userCode = [42]
 
 const alphabet = [65, 66, 67];
  
- 
+ let index = 0;
 
 
 
