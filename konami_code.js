@@ -22,7 +22,7 @@ document.body.addEventListener('keydown', (e) => {
   console.log('index= ', index)
   if (key === code[index]) {
     index++;
-console.log(index)
+// console.log(index)
     if (index === code.length) {
       alert("Hurray!");
  
