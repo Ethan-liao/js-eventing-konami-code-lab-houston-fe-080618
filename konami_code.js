@@ -35,7 +35,7 @@ console.log(index)
 }
 
 init()
-document.addEventListener('keydown', onKeyDownHandler);
+document.addEventListener('keydown', init);
 
 
 // document.addEventListener('keydown', (event) => {
