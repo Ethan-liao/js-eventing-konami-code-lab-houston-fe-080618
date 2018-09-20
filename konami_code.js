@@ -41,7 +41,7 @@ function onKeyDownHandler(e){
   } else {
     index=0;
   }
-  
+  console.log(e.which)
 
 }
 
