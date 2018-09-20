@@ -26,16 +26,18 @@ let userCode = [42]
 // }
 
 
-const alphabet = [65, 66, 67];
+const code = [65, 66, 67];
  
 let index = 0;
 
 function onKeyDownHandler(e){
   const key = parseInt(e.which);
-  
+  if (key === code[index]{
+    index++
+  };
 }
 
-
+document.addEventListener('keydown', onKeyDownHandler)
 
 
 
