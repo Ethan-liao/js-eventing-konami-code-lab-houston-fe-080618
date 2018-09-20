@@ -11,7 +11,7 @@ function init() {
       if(userCode[i] === code[i]){
       } else {
         userCode = [e.which];
-
+      
       }
     }
     
