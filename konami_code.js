@@ -4,7 +4,7 @@
 function init() {
   
   document.addEventListener('keydown',function(e){
-    alert('the key pressed is ', e.which)
+    alert('the key pressed is ' + e.which)
   })
 
 }
